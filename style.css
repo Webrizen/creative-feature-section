@@ -177,7 +177,7 @@
 }
 
 /* Simplify styles for mobile view */
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .holderCircle {
         width: 100%;
         height: 400px;
@@ -206,5 +206,10 @@
 
     .title-box p {
         font-size: 12px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .round{
+        height: 73%;
     }
 }

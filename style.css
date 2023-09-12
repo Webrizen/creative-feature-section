@@ -207,6 +207,22 @@
     .title-box p {
         font-size: 12px;
     }
+    .contentCircle{
+        top: 35%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        transform: translate(0);
+    }
+    .contentCircle .CirItem i{
+        font-size: 6rem;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
 }
 @media only screen and (max-width: 768px) {
     .round{
